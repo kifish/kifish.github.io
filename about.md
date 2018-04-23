@@ -1,13 +1,8 @@
 ---
 layout: page
 title: "About"
-description: "你的博客描述 " 
+description: "email:humblelearner@163.com"
 header-img: "img/green.jpg"
 ---
 
-这一页填写你的自我介绍。
-
-
-
-
-
+Email : humblelearner@163.com
