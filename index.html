@@ -19,7 +19,7 @@ description: "博客页面"
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 
     <p>
-    <span id="{{ site.url }}{{ post.url }}" class="leancloud_visitors meta_data_item" data-flag-title="{{ post.title }}">
+    <span id="{{ post.url }}" class="leancloud_visitors " data-flag-title="{{ post.title }}">
         <span class="old-visitors-count" style="display: none;">{{post.views|first}}</span>
         <span class="post-meta-item-text"> Hits:  </span>
         <span class="leancloud-visitors-count"></span>
