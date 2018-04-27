@@ -46,6 +46,12 @@ defaults:
       author: "kifish" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
+#add reading hits
+leancloud:
+  enable: true
+  app_id: oY8NR4jn8S6a4xmXQzzVTpxw-gzGzoHsz
+  app_key: ndyjkaC2Lhk3hJtwkq6M87So
+
 # Comments
 comments :
   provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见

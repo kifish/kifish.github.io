@@ -55,12 +55,21 @@ layout: default
                     {% endif %}
                 </ul>
 
+                <!-- leancloud hits -->
+                {% if site.leancloud.enable %}
+                    <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+                     <span class="post-meta-divider">|</span>
+                     <span class="post-meta-item-text"> Hits:  </span>
+                     <span class="leancloud-visitors-count"></span>
+                    </span>
+                {% endif %}
+
                 <!-- Duoshuo Share start -->
                 <style>
                     .ds-share{
                         text-align: right;
                     }
-                    
+
                     @media only screen and (max-width: 700px) {
                         .ds-share {
 
@@ -98,6 +107,7 @@ layout: default
         </div>
     </div>
 </article>
+
 
 
 
