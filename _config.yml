@@ -10,7 +10,7 @@ url: "https://kifish.github.io/"  # 此处填写你的博客地址
 owner:
   name: "kifish" # 填写作者信息：名字
   email: humblelearner@163.com # 填写作者信息：邮箱
-  bio: "--" # 填写作者信息：博客描述
+  bio: "https://github.com/kifish" # 填写作者信息：博客描述
 
 # Data
 gavatar: img/dolphin.gif # 浏览器地址栏小图标，可自定义更改
@@ -18,7 +18,7 @@ favicon: img/dolphin.gif # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username:
-github_username:
+github_username: kifish
 facebook_username:
 weibo_username:
 zhihu_username:
@@ -27,7 +27,7 @@ zhihu_username:
 # use Github Flavored Markdown !important
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 permalink: pretty
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
