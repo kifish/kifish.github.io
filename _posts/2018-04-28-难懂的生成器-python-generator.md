@@ -2,19 +2,7 @@
 layout: post
 tags: [python,advanced]
 ---
-见SO   
-```
-==========       yield      ========
-Generator |   ------------> | User |
-==========                  ========
-```
 
-```
-==========       yield       ========
-Generator |   ------------>  | User |
-==========    <------------  ========
-                  send
-```
 
 generator有send方法，并且有返回值，如下例的receive。send方法有点类似next（），但前者可以调用参数，并且后者往往是yield var
 
@@ -207,6 +195,126 @@ receive_idx : 2
 ----
 ```
 
+实际上我的理解:
+>如果先用send，再用next,似乎send不会给next保存参数和状态      
+
+错误
+
+
+```
+def gen():
+    idx=0
+    while True:
+        receive = yield idx
+        for _idx,val in enumerate([1,2,3,4,5,6]):
+            if _idx < receive:
+                continue
+            if _idx > receive:
+                break
+
+            val += 10
+            print(val)
+            print('receive_idx :',receive)
+            yield val
+
+
+g=gen()
+
+g.send(None)
+print(g.send(2))
+print("----")
+print(next(g))
+print("----")
+```
+
+
+```
+13
+receive_idx : 2
+13
+----
+0
+----
+```
+send会执行到下一个yield，并且包括下一个yield,然后暂停（相当于断点）
+
+
+```
+def gen():
+    while True:
+        receive = yield
+        print('a----receive:',receive)
+        var = receive + 1
+        print('b----receive:',receive)
+        _ = yield var
+
+g = gen()
+next(g)
+
+var = g.send(2)
+print('var :',var)
+next(g)
+
+var = g.send(20)
+print('var :',var)
+
+```
+
+```
+a----receive: 2
+b----receive: 2
+var : 3
+a----receive: 20
+b----receive: 20
+var : 21
+
+```
+
+next 和 send里的yield表达式其实是一样的。
+
+next:
+yield var    
+相当于 _ = yield var
+      _ 会作为next的返回值
+send:
+x = yield var  #传入var的值并且赋值给x
+实际上去掉var    
+x = yield #一样赋值给x
+
+可以看到 next和send实际上都是yield表达式   
+只不过next中返回了_的值，但是disgard了_,并没有在上下文里保存。    
+而send保存了值，并且没有立即进入中断，而是执行到了下一个yield表达式（包括），执行完之后，进入中断。
+
+画个图来表达：   
+```
+               next                                                            send     
+                .                                                                |        
+                |                                                                |            
+                |                                                                .            
+         (default = output _ )(也可以指定output var,从而保留该值)  (=) yield (input var)(default = None)  #如果给出了input var,还可以设置input var的默认值
+```
+
+
+下图见SO  
+
+```
+                                     next() 消耗了一次yield表达式
+                                 ==========       yield      ========
+                                 Generator |   ------------> | User |
+                                 ==========                  ========
+```
+
+```
+                                     send() 消耗了两次yield表达式
+                                 ==========       yield       ========
+                                 Generator |   ------------>  | User |
+                                 ==========    <------------  ========
+                                                   send
+```
+
+详细的可以看这篇:     
+http://kissg.me/2016/04/09/python-generator-yield/  
+
 
 -http://www.cnblogs.com/jessonluo/p/4732565.html
 
@@ -221,6 +329,6 @@ send其实是协程
 
 
 参考：
--https://stackoverflow.com/questions/19302530/python-generator-send-function-purpose
--http://python.jobbole.com/81911/
--http://devarea.com/python-understanding-generators/#.WuRvjNOFPOQ
+-https://stackoverflow.com/questions/19302530/python-generator-send-function-purpose     
+-http://python.jobbole.com/81911/     
+-http://devarea.com/python-understanding-generators/#.WuRvjNOFPOQ     
