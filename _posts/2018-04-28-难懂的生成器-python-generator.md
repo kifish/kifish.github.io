@@ -286,31 +286,31 @@ x = yield #一样赋值给x
 而send保存了值，并且没有立即进入中断，而是执行到了下一个yield表达式（包括），执行完之后，进入中断。
 
 画个图来表达：   
-```
+
                next                                                            send     
                 .                                                                |        
                 |                                                                |            
                 |                                                                .            
          (default = output _ )(也可以指定output var,从而保留该值)  (=) yield (input var)(default = None)  #如果给出了input var,还可以设置input var的默认值
-```
+
 
 
 下图见SO  
 
-```
+
                                      next() 消耗了一次yield表达式
                                  ==========       yield      ========
                                  Generator |   ------------> | User |
                                  ==========                  ========
-```
 
-```
+
+
                                      send() 消耗了两次yield表达式
                                  ==========       yield       ========
                                  Generator |   ------------>  | User |
                                  ==========    <------------  ========
                                                    send
-```
+
 
 详细的可以看这篇:     
 http://kissg.me/2016/04/09/python-generator-yield/  
