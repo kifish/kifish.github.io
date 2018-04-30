@@ -325,10 +325,11 @@ send其实是协程
 >协程的特点在于是一个线程执行，那和多线程比，协程有何优势？
 >最大的优势就是协程极高的执行效率。因为子程序切换不是线程切换，而是由程序自身控制，因此，没有线程切换的开销，和多线程比，线程数量越多，协程的性能优势就越明显。
 
-个人理解是线程共享了代码段和数据段，因此切换的时候，需要用到栈；而协程并没有用到栈，共享了变量，只是CPU执行代码的顺序改变了，可能类似汇编里的跳转(?)
+个人理解是线程共享了代码段，切换的时候，需要用到栈；而协程并没有用到栈，共享了变量，只是CPU执行代码的顺序改变了，可能类似汇编里的跳转(?)
 
 
 参考：
 -https://stackoverflow.com/questions/19302530/python-generator-send-function-purpose     
 -http://python.jobbole.com/81911/     
--http://devarea.com/python-understanding-generators/#.WuRvjNOFPOQ     
+-http://devarea.com/python-understanding-generators/#.WuRvjNOFPOQ        
+-https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/     
