@@ -6,7 +6,7 @@ tags: [python,advanced]
 
 generator有send方法，并且有返回值，如下例的receive。send方法有点类似next()，但前者可以调用参数，并且后者往往是yield var
 
-```Python
+```python
 def simp():
     firstnum = 0
     while True:
@@ -27,7 +27,7 @@ print(it.next()) # 220
 print(it.next()) # 230
 ```
 
-```Python
+```python
 def gen():
     idx=0
     while True:
