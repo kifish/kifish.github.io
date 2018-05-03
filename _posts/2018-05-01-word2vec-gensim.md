@@ -3,7 +3,8 @@ layout: post
 tags: [nlp,dl,他山之石]
 published : true
 ---
--https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec.accuracy
+-https://radimrehurek.com/gensim/models/word2vec.html
+
 学习：https://rare-technologies.com/word2vec-tutorial/  （来自gensim文档的官方推荐）
 建议直接看原文。
 gensim比用numpy普通实现快很多。
