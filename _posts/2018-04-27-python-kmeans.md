@@ -4,7 +4,7 @@ tags: [python,ml,他山之石]
 ---
 
 http://blog.csdn.net/github_36326955/article/details/54999627
-```
+```python
 # -*- coding: utf-8 -*-
 
 import numpy as np

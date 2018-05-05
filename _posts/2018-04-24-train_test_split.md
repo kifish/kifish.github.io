@@ -13,7 +13,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,stratify
 
 
 /Users/k/anaconda3/lib/python3.6/site-packages/sklearn/utils/validation.py
-```
+```python
 def _num_samples(x):
     """Return number of samples in array-like x."""
     if hasattr(x, 'fit') and callable(x.fit):
@@ -41,7 +41,7 @@ def _num_samples(x):
 至于y为什么会变成形如np.array('0006159194')，遍历的时候变量名冲突了
 见2018-04-25-字典序.md
 
-```
+```python
 import numpy as np
 def _num_samples(x):
     """Return number of samples in array-like x."""
@@ -97,7 +97,7 @@ print(_num_samples(x))
 
 
 去掉也没关系,即使0.2不够也会自动取整，但是以下这段代码会提高acc等指标，因为对于小样本集的情况，只用了一个测试样本
-```
+```python
 
 class2sample_num = {}
 for item in y:

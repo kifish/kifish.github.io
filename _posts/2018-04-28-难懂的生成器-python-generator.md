@@ -65,7 +65,7 @@ item : 4
 上面的的写法似乎多此一举，但是如果在GUI程序中，这样生成器的用法可以用来处理：
 点击一下“next”按钮，就处理下一行数据，并返回结果。
 
-```
+```python
 def printvar():
     data = yield 3  #line1
     print('in----',data)  #line2
@@ -79,7 +79,7 @@ print(next(x))
 
 ```
 
-```
+```python
 def printvar():
     data = yield 3  #line1
     print('in----',data)  #line2
@@ -96,7 +96,7 @@ x.send(4)
 
 
 
-```
+```python
 def printvar():
     data = yield 3  #line1
     print('in----',data)  #line2
@@ -122,7 +122,7 @@ StopIteration
 
 
 
-```
+```python
 def gui_test(classifier):
     run_idx = 0
     pred_or_unpred_res = []
@@ -159,7 +159,7 @@ next()等价于send(None)
 ```
 但是如果先用send，再用next,似乎send不会给next保存参数和状态     
 
-```
+```python
 def gen():
     idx=0
     while True:
@@ -201,7 +201,7 @@ receive_idx : 2
 错误
 
 
-```
+```python
 def gen():
     idx=0
     while True:
@@ -239,7 +239,7 @@ receive_idx : 2
 send会执行到下一个yield，并且包括下一个yield,然后暂停（相当于断点）
 
 
-```
+```python
 def gen():
     while True:
         receive = yield

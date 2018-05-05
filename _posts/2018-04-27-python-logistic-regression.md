@@ -9,7 +9,7 @@ getA()函数是在numpy模块中的，功能是将矩阵转化成数组
 主要bug原因是：有的地方把python当matlab了，比如对matrix的索引，两者其实有一些区别的。
 
 原文中的代码可能随机化的地方有bug。
-```
+```python
 # -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt

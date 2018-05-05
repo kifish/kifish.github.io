@@ -13,7 +13,7 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/index.html
  #OSTU: http://blog.csdn.net/on2way/article/details/46812121   
 
 
- ```
+ ```python
  # -*- coding: utf-8 -*-
  import numpy as np
  import cv2,sys
@@ -95,6 +95,3 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/index.html
  print("here")
  cv2.waitKey(0)
  ```
-
-
- 

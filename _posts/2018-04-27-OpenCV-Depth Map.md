@@ -19,7 +19,7 @@ deparsity = cv2.StereoBM(cv2.STEREO_BM_BASIC_PRESET,ndisparities=16, SADWindowSi
 deparsity = cv2.createStereoBM(numDisparities=16, blockSize=25)
 ```
 测试代码如下：  
-```
+```python
 # -*- coding: UTF-8 -*-
 import numpy as np
 import cv2
