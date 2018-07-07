@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [sklearn,ml]
-published : false
+published : true
 ---
 stratify是为了保持split前类的分布。比如有100个数据，80个属于A类，20个属于B类。如果train_test_split(X,y, test_size=0.25, stratify = y), 那么split之后数据如下：
 training: 75个数据，其中60个属于A类，15个属于B类。
