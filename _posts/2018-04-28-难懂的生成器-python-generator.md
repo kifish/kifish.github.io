@@ -42,10 +42,10 @@ def gen():
 
 
 g=gen()
-g.send(None)
-g.send(1)
-g.send(2)
-g.send(3)
+g.send(None) # 执行到 receive = yield idx 即返回
+g.send(1) # 继续从 receive = yield idx 开始执行，此时receive值为1
+g.send(2) # 继续从 receive = yield idx 开始执行，此时receive值为2
+g.send(3) # 继续从 receive = yield idx 开始执行，此时receive值为3
 
 ```
 
@@ -58,6 +58,10 @@ item : 3
 receive_idx : 3
 item : 4
 ```
+
+
+把值传入或者传出都是用的yield表达式。
+
 
 注：如果send的值比列表元素的总数大，则会打印最后一个值
 
@@ -77,12 +81,14 @@ print(next(x))
 
 #3
 
+#只执行到line1就返回了
+
 ```
 
 ```python
 def printvar():
     data = yield 3  #line1
-    print('in----',data)  #line2
+    print('in------',data)  #line2
     data = yield   #line3
     print('in----',data)
 
@@ -90,18 +96,20 @@ x = printvar()
 print(next(x))
 x.send(4)
 #3
-#in---- 4
+#in------ 4
 ```
-实际上line2并没有被执行，因为send改变了程序的流向，从line3开始执行了。
+send改变了程序的流向,x.send(4)从line1开始执行，data被赋值为4,在line3返回(未执行line3)。若有next(x)则会继续从line3开始执行。
+
+
 
 
 
 ```python
 def printvar():
     data = yield 3  #line1
-    print('in----',data)  #line2
+    print('in------',data)  #line2
     data = yield   #line3
-    print('in----',data)
+    print('in----',data) #line4
 
 x = printvar()
 print(next(x))
@@ -111,14 +119,22 @@ x.send(5)
 
 ```
 3
-in---- 4
+in------ 4
 in---- 5
 Traceback (most recent call last):
   File "shanchu.py", line 13, in <module>
     x.send(5)
 StopIteration
 ```
-实际上x.send(4)之后已经没有yield了，所以x.send(5)会报错。
+next(x)从line1开始执行，并返回。
+x.send(4)从line1开始执行,执行到line3之前(不执行line3)并返回。   
+x.send(5)从line3开始执行,并要寻找到下一个yield表达式以便返回,当执行完line4,之后已经没有yield表达式了，所以x.send(5)会报错。
+
+send 和 next都只消耗一个yield表达式(?),但前者需要有两个yield表达式,第二个yield表达式作为返回点。
+
+send到底消耗几个yield表达式,从后面的结果来看感觉是两个,这里感觉是1个。难道和相近的send或是next有关？这样排列组合有四种情况。有空试一下。
+
+
 
 
 
@@ -242,16 +258,16 @@ send会执行到下一个yield，并且包括下一个yield,然后暂停（相�
 ```python
 def gen():
     while True:
-        receive = yield
+        receive = yield #line1
         print('a----receive:',receive)
         var = receive + 1
         print('b----receive:',receive)
         _ = yield var
 
 g = gen()
-next(g)
+next(g) #执行到line1
 
-var = g.send(2)
+var = g.send(2) #从line1继续执行(包括line1)
 print('var :',var)
 next(g)
 
