@@ -6,6 +6,12 @@ description: "-prac"  # 一句话描述你的博客
 baseurl: ""
 url: "https://kifish.github.io/"  # 此处填写你的博客地址
 
+
+# 开启sass
+sass:
+    sass_dir: _sass
+    style: compressed
+    
 # About/contact
 owner:
   name: "kifish" # 填写作者信息：名字
