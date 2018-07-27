@@ -13,6 +13,15 @@ html {
 body {
   margin: 0;
 }
+
+
+/* wider*/
+body {
+    margin: 60px auto;
+    width: 90%;
+}
+
+
 article,
 aside,
 details,
