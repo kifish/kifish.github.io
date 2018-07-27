@@ -8,10 +8,11 @@ url: "https://kifish.github.io/"  # 此处填写你的博客地址
 
 
 # 开启sass
+# We specify the directory for Jekyll so we can use @imports.
 sass:
     sass_dir: _sass
     style: compressed
-    
+
 # About/contact
 owner:
   name: "kifish" # 填写作者信息：名字
