@@ -13,6 +13,12 @@
   white-space: pre;       /* forces <code> to respect <pre> formatting */
 }
 
+@import "{{ site.theme }}";
+
+.inner {
+  max-width: 80%;
+}
+
 
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
