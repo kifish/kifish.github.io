@@ -1570,6 +1570,8 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+/*article 放在了div = container之中*/
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -1586,9 +1588,11 @@ pre code {
     width: 970px;
   }
 }
+
+/*修改页面宽度*/
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1800px;
   }
 }
 .container-fluid {
