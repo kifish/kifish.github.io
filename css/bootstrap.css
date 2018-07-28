@@ -1592,7 +1592,7 @@ pre code {
 /*修改页面宽度*/
 @media (min-width: 1200px) {
   .container {
-    width: 1800px;
+    width: auto;
   }
 }
 .container-fluid {
