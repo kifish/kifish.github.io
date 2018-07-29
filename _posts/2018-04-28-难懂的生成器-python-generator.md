@@ -134,6 +134,19 @@ send 和 next都只消耗一个yield表达式(?),但前者需要有两个yield�
 
 send到底消耗几个yield表达式,从后面的结果来看感觉是两个,这里感觉是1个。难道和相近的send或是next有关？这样排列组合有四种情况。有空试一下。
 
+参考：https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432090171191d05dae6e129940518d1d6cf6eeaaa969000
+
+send,需要遇到两个yield表达式，第一个yield表达式用于传入值，第二个yield表达式用于传出值，但第二个yield表达式不会被消耗掉，下次next或send会从第二个yield表达式的地方接着执行。
+
+>当第一次send（None）（对应c.send(None)）时，启动生成器，从生成器函数的第一行代码开始执行，直到第一次执行完yield（对应n = yield r）后，跳出生成器函数。这个过程中，n一直没有定义。
+下面运行到send（1）时，进入生成器函数，注意这里是从n = yield r开始执行，把1赋值给n，但是并不执行yield部分。下面继续从yield的下一语句继续执行，然后重新运行到yield语句，执行后，跳出生成器函数。
+
+var x = yield r
+如果调用的是send(input),第一次遇到yield表达式，相当于x = input,第二次遇到yield表达式 yield r (返回r)
+
+
+
+
 
 
 
