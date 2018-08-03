@@ -3,6 +3,7 @@ body {
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
+  width: 100%;
   overflow-x: hidden;
 }
 p {
