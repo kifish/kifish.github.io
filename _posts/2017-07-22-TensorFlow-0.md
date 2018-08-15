@@ -328,3 +328,164 @@ print("Optimization Finished!")
 #https://zhuanlan.zhihu.com/p/22410917
 ```
 原帖中的cost数值是错的
+
+
+
+
+```
+import tensorflow as tf
+W=tf.Variable(tf.zeros([2,1]),name="weights")
+b=tf.Variable(0.,name="bias")
+def inference(X):
+    return tf.matmul(X,W)+b
+def loss(X,Y):
+    Y_predicted=inference(X)
+    return tf.reduce_sum(tf.squared_difference(Y,Y_predicted))
+def inputs():
+    weights_age=[[84,46],[73,20],[65,52],[70,30]]
+    blood_fat_content=[354,190,405,263]
+    return tf.to_float(weights_age),tf.to_float(blood_fat_content)
+def train(total_loss):
+    learning_rate=0.000001;
+    return tf.train.GradientDescentOptimizer(learning_rate).minimize(total_loss)
+def evaluate(sess,X,Y):
+    print(sess.run(inference([[80.,25.]])))
+with tf.Session() as sess:
+    tf.global_variables_initializer().run()
+    X,Y=inputs()
+    total_loss=loss(X,Y)
+    train_op=train(total_loss)
+    coord=tf.train.Coordinator()
+    threads=tf.train.start_queue_runners(sess=sess,coord=coord)
+    training_iterations=1000
+    for iter in range(training_iterations):
+        sess.run([train_op])
+        if iter%100 == 0:
+            print("loss:",sess.run([total_loss]))
+    evaluate(sess,X,Y)
+    coord.request_stop()
+    coord.join(threads)
+    sess.close()
+
+
+
+----------------------------
+import tensorflow as tf
+from tensorflow.examples.tutorials.mnist import input_data
+mnist=input_data.read_data_sets("/usr/local/lib/python3.6/site-packages/tensorflow/examples/tutorials/mnist",one_hot=True)
+#不用网络下载(因为被墙了下载会失败),而是将下载好的数据放到对应文件夹。
+sess=tf.InteractiveSession()
+X=tf.placeholder(tf.float32,[None,784])
+W=tf.Variable(tf.zeros([784,10]))
+b=tf.Variable(tf.zeros([10]))
+pred=tf.nn.softmax(tf.matmul(X,W)+b)
+target=tf.placeholder(tf.float32,[None,10])
+cross_entropy=tf.reduce_mean(-tf.reduce_sum(target*tf.log(pred),reduction_indices=[1]))
+
+train_step=tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
+
+tf.global_variables_initializer().run()
+for i in range(1000):
+    batch_xs,batch_ys=mnist.train.next_batch(100)
+    train_step.run({X:batch_xs,target:batch_ys})
+
+correct_prediction=tf.equal(tf.argmax(pred,1),tf.argmax(target,1))
+accuracy=tf.reduce_mean(tf.cast(correct_prediction,tf.float32))
+print(accuracy.eval({X:mnist.test.images,target:mnist.test.labels}))
+
+
+-----------------------
+import tensorflow as tf
+from numpy.random import RandomState
+batch_size = 8
+x = tf.placeholder(tf.float32, shape=(None, 2), name="x-input")
+y_label = tf.placeholder(tf.float32, shape=(None, 1), name='y-input')
+w1= tf.Variable(tf.random_normal([2, 1], stddev=1, seed=1))
+y = tf.matmul(x, w1)
+#定义损失函数使得预测少了的损失大，于是模型应该偏向多的方向预测。
+#换句话说,对于y>y_label的情况，惩罚较小,所以更倾向于y>y_label
+loss_less = 10
+loss_more = 1
+loss = tf.reduce_sum(tf.where(tf.greater(y, y_label), (y - y_label) * loss_more, (y_label - y) * loss_less))
+#如果y大,(y - y_label) * loss_more
+#如果y_label大,(y_label - y) * loss_less
+
+train_step = tf.train.AdamOptimizer(0.001).minimize(loss)
+rdm = RandomState(1)
+X = rdm.rand(128,2)
+Y = [[x1+x2+(rdm.rand()/10.0-0.05)] for (x1, x2) in X]
+with tf.Session() as sess:
+    tf.global_variables_initializer().run()
+    STEPS = 5000
+    for i in range(STEPS):
+        start = (i*batch_size) % 128
+        end = (i*batch_size) % 128 + batch_size
+        sess.run(train_step, feed_dict={x: X[start:end], y_label: Y[start:end]})
+        if i % 1000 == 0:
+            print("After %d training step(s), w1 is: " % (i))
+            print(sess.run(w1), "\n")
+    print("Final w1 is: \n", sess.run(w1))
+
+-------------------
+#保存model
+import tensorflow as tf
+v1=tf.Variable(tf.constant(1.0,shape=[1]),name="v1")
+v2=tf.Variable(tf.constant(1.0,shape=[1]),name="v2")
+result=v1+v2
+init_op=tf.global_variables_initializer()
+saver=tf.train.Saver()
+with tf.Session()  as sess:
+    sess.run(init_op)
+    saver.save(sess,"model.ckpt")
+
+------------
+import tensorflow as tf
+W=tf.Variable(tf.zeros([2,1]),name="weights")
+
+print("-")
+print(W)
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    W_val = sess.run(W)
+    print("--")
+    print(W_val)
+    print("---")
+    print(W)
+
+"""
+-
+<tf.Variable 'weights:0' shape=(2, 1) dtype=float32_ref>
+--
+[[ 0.]
+ [ 0.]]
+---
+<tf.Variable 'weights:0' shape=(2, 1) dtype=float32_ref>
+"""
+
+```
+
+
+```
+TensorFlow print variable 的值 是这样的： 
+import tensorflow as tf 
+W=tf.Variable(tf.zeros([2,1]),name="weights")
+print("-") 
+print(W) 
+with tf.Session() as sess: 
+    sess.run(tf.global_variables_initializer()) 
+    W_val = sess.run(W) 
+    print("--") 
+    print(W_val) 
+    print("---") 
+    print(W)
+```
+
+
+TensorFlow与我们正常的编程思维略有不同：TensorFlow中的语句不会立即执行；而是等到开启会话session的时候，才会执行session.run()中的语句。如果run中涉及到其他的节点，也会执行到。
+
+Tesorflow模型中的所有的节点都是可以视为运算操作op或tensor
+
+http://blog.csdn.net/zhouyelihua/article/details/62210357
+
+回归和保存model
+
