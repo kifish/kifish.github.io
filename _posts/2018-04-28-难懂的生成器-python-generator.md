@@ -4,6 +4,11 @@ tags: [python,advanced]
 ---
 
 
+由于函数无法保存状态，故需要一个全局变量配合函数保存状态。
+
+>因为generator可以在执行过程中多次返回，所以它看上去就像一个可以记住执行状态的函数，利用这一点，写一个generator就可以实现需要用面向对象才能实现的功能。
+
+
 generator有send方法，并且有返回值，如下例的receive。send方法有点类似next()，但前者可以调用参数，并且后者往往是yield var
 
 ```python
