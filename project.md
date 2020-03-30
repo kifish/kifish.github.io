@@ -1,3 +1,9 @@
+---
+layout: page
+title: "project"
+description: "project"
+---
+
 #### NER
 2018.11  
 repo: https://github.com/kifish/NER-demo
@@ -15,10 +21,11 @@ https://github.com/kifish/NER-demo/tree/BiLSTM-crf
 
 #### semantic parsing
 2019.05  
-dataset: https://github.com/msra-nlc/MSParS
-repo: https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2 (待完善)
+natural language -> logical form  
+[dataset](https://github.com/msra-nlc/MSParS) [code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)
 
-seq2seq + bilstm-crf ner
+method:  
+bilstm-crf ner + seq2seq 
 
 #### 基于知识选择的chatbot
 2020.02-2020.05  
