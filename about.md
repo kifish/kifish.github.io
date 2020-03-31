@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "email:humblelearner@163.com"
-header-img: "img/green.jpg"
+header-img: "img/zhihu.jpg"
 ---
 
 Email : humblelearner@163.com
