@@ -7,7 +7,7 @@ description: "project"
 
 #### NER
 2018.11  
-**[code](https://github.com/kifish/NER-demo)**  
+[**[code](https://github.com/kifish/NER-demo)**]  
 尝试了5种方法实现中文命名实体词识别:    
 1.[HMM](https://github.com/kifish/NER-demo/tree/hmm)  
 2.[CRF](https://github.com/kifish/NER-demo/tree/crf)  
@@ -18,13 +18,14 @@ description: "project"
 #### semantic parsing
 2019.05  
 natural language -> logical form  
-**[dataset](https://github.com/msra-nlc/MSParS)**  **[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**
+[**[dataset](https://github.com/msra-nlc/MSParS)**]  [**[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**]
 
 method:  
 bilstm-crf ner + seq2seq 
 
 #### 基于知识选择的检索式chatbot
-2020.02-2020.05  
+2020.02-2020.05   
+目前,在Persona-Chat和CMUDoG数据集上已有sota结果。  
 To be released.
 
 #### 实习经历
