@@ -25,6 +25,7 @@ bilstm-crf ner + seq2seq
 
 #### 基于知识选择的检索式chatbot
 2020.02-2020.05   
+在严睿老师组里实习。  
 目前,在Persona-Chat和CMUDoG数据集上已有sota结果。  
 To be released.
 
