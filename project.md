@@ -10,10 +10,12 @@ description: "project"
 [**[dataset](https://github.com/kifish/NER-demo/tree/master/data)**]  [**[code](https://github.com/kifish/NER-demo)**]  
 尝试了5种方法实现中文命名实体词识别:    
 1.[HMM](https://github.com/kifish/NER-demo/tree/hmm)  
-2.[CRF](https://github.com/kifish/NER-demo/tree/crf)  
+2.[CRF](https://github.com/kifish/NER-demo/tree/crf)  [learn CRF tips](https://kifish.github.io/2018/07/13/CRF/)  
 3.[BiLSTM-viterbi](https://github.com/kifish/NER-demo/tree/BiLSTM-viterbi)  
 4.[BiLSTM-CRF](https://github.com/kifish/NER-demo/tree/BiLSTM-crf)  
 5.[BiLSTM-CNN-CRF](https://github.com/kifish/NER-demo/tree/BiLSTM-cnn-crf)
+
+update: methods above are out of date.
 
 #### semantic parsing
 2019.05  
