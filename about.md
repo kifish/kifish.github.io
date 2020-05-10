@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "About"
-description: "email:humblelearner@163.com"
+description: "kifish"
 header-img: "img/zhihu.jpg"
 ---
 
-Email : humblelearner@163.com
+github: kifish
