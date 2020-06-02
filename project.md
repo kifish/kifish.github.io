@@ -8,10 +8,14 @@ description: "project"
 #### 实习经历
 
 #### 基于知识选择的检索式chatbot
-2020.02-2020.05   
+2020.02-present   
 在严睿老师组里实习。  
 目前,在Persona-Chat、CMUDoG和Wizard数据集上已有sota结果, 一篇cikm2020在投。  
 To be released.
+
+##### FAQ
+2020.04-present                        腾讯微信-模式识别中心  
+担任nlp算法实习生，参与微信对话开放平台的**FAQ**项目。
 
 ##### 篇章理解
 2019.11-2020.02                        字节跳动-搜索  
