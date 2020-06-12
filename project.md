@@ -15,7 +15,7 @@ To be released.
 
 ##### FAQ
 2020.04-present                        腾讯微信-模式识别中心  
-担任nlp算法实习生，参与微信对话开放平台的**FAQ**项目。
+担任nlp算法实习生，参与 **[微信对话开放平台](https://openai.weixin.qq.com/)** 的**FAQ**项目, 即检索式 chatbot。负责对话反馈分类。负责 es 后台接口以及数据更新服务。 
 
 ##### 篇章理解
 2019.11-2020.02                        字节跳动-搜索  
@@ -27,6 +27,15 @@ To be released.
 
 
 #### tiny projects
+
+#### semantic parsing
+2019.05  
+natural language -> logical form  
+[**[dataset](https://github.com/msra-nlc/MSParS)**]  [**[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**]
+
+method:  
+bilstm-crf ner + seq2seq     
+TODO: maybe pointer network + seq2seq is better!
 
 #### NER
 2018.11  
@@ -40,11 +49,3 @@ To be released.
 
 update: methods above are out of date.
 
-#### semantic parsing
-2019.05  
-natural language -> logical form  
-[**[dataset](https://github.com/msra-nlc/MSParS)**]  [**[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**]
-
-method:  
-bilstm-crf ner + seq2seq     
-TODO: maybe pointer network + seq2seq is better!
