@@ -20,7 +20,9 @@ dist_mat = sqrt(sum(diff_mat.^2,2));
 [~,idx] = sort(dist_mat,'ascend');
 len = min(k,m);
 predict = mode(train_labels(idx(1:len)));
+```
 test.m
+```matlab
 data = load('test.txt');
 data_mat = data(:,1:3);
 labels = data(:,4);
