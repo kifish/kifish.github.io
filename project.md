@@ -8,10 +8,13 @@ description: "project"
 #### 实习经历
 
 #### 基于知识选择的检索式chatbot
-2020.02-present   
+2020.02-2020.07   
 在严睿老师组里实习。  
-目前,在Persona-Chat、CMUDoG和Wizard数据集上已有sota结果, 一篇cikm2020在投。  
-To be released.
+在Persona-Chat、CMUDoG和Wizard数据集上取得sota结果, 投稿于CIKM2020:   
+Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems (CIKM2020 Full Paper Research Track 共一一作) 
+ 
+[**[paper](https://github.com/msra-nlc/MSParS)**]  [**[dataset](https://github.com/msra-nlc/MSParS)**]  [**[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**]
+
 
 ##### FAQ
 2020.04-present                        腾讯微信-模式识别中心  
