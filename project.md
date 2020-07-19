@@ -8,9 +8,9 @@ description: "project"
 #### 实习经历
 
 #### 基于知识选择的检索式chatbot
-2020.02-present
-在严睿老师组里实习。
-在Persona-Chat、CMUDoG和Wizard数据集上取得sota结果, 发表于CIKM2020:    
+2020.02-present         
+在严睿老师组里实习。      
+在Persona-Chat、CMUDoG和Wizard数据集上取得sota结果, 发表于CIKM2020:         
 Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems (CIKM2020 Full Paper Research Track 共一一作) 
  
 [**[paper](https://github.com/kifish/knowbot)**]  [**[dataset](https://github.com/kifish/knowbot)**]  [**[code](https://github.com/kifish/knowbot)**]
