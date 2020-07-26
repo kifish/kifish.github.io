@@ -21,8 +21,15 @@ CIKM2020 Full Paper Research Track 一作
 
 ##### FAQ
 2020.04-present                        腾讯微信-模式识别中心  
-担任nlp算法实习生，参与 **[微信对话开放平台](https://openai.weixin.qq.com/)** 的**FAQ**项目, 即检索式 chatbot。负责对话反馈分类。负责 es 后台接口以及数据更新服务。 
-<!-- 
+担任nlp算法实习生，参与 **[微信对话开放平台](https://openai.weixin.qq.com/)** 的**FAQ**项目, 即检索式 chatbot。   
+负责 es 后台接口以及数据更新服务。    
+负责对话反馈分类。   
+通过预训练模型(GPT2/mass)，从标准问生成相似问。
+
+<div style='display: none'>
+https://www.cnblogs.com/yangzhou33/p/8438461.html
+
+
 对话开发平台介绍:
 https://mp.weixin.qq.com/s/mmBa_-Tw395RzV0CEnYZ0w
 
@@ -58,8 +65,8 @@ http://mp.weixin.qq.com/s?__biz=MzI5MTU5OTM1NQ==&mid=2247484085&idx=1&sn=f71f5f9
 微信攻AI，有软有硬
 https://mp.weixin.qq.com/s?__biz=MzI5MTU5OTM1NQ==&mid=2247485180&idx=1&sn=2ac8723a962f280a592f02d37a3df889&chksm=ec0f6068db78e97efa1bd4068e291af142345cd85e027ecd00b0c7b43567569cc4e4f90456cb&mpshare=1&scene=24&srcid=072053RR5J8oNO2cRuV8gIhj&sharer_sharetime=1595236421986&sharer_shareid=0c9ba40fe1895b3bda5b5da7468fef81#rd
 
+</div>
 
--->
 
 
 ##### 篇章理解
