@@ -58,7 +58,7 @@ level有点难理解,我把level理解为可能的所选feature的最大个数.(
 增支;       
 减支;       
 先增支再减支;             
- 
+
 选择real feature可以copy多次data,然后随机删除5%.            
 加速,可以不计算accuracy,发现错的样本过多,直接退出.          
 
