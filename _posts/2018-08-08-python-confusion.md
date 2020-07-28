@@ -1,4 +1,8 @@
-
+---
+layout: post
+tags: [python]
+published : false
+---
 
 
 
@@ -31,7 +35,15 @@ b[0] = 2
 
 
 python的陷阱:
-尽管是通过缩进判断for循环作用域的,但是 else 的匹配 和缩进关系不大 ,主要是匹配给上一个if.
+通过缩进判断for循环作用域的, for x in l:
+
+但是x在for循环结束之后依然有效。
+
+python的else 匹配是通过缩进 而不是匹配给上一个if。
+
+但是 else 的匹配 和缩进关系不大 ,主要是匹配给上一个if.
+
+https://colab.research.google.com/drive/15ipbb4fJ-ItEMX_rSn8kEkArtx0sV4dg#scrollTo=IIjZNTbfqbom
 
 
 
