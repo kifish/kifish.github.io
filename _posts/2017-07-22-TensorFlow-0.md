@@ -7,6 +7,8 @@ https://jizhi.im/blog/post/5min-ml  （可在网页上运行）
 
 
 
+tf1.0
+
 https://zhuanlan.zhihu.com/p/22410917
 
 ```python
@@ -147,10 +149,10 @@ with tf.Session() as sess:
 
 
 
- 回归：
+回归：
 
 
- 安装：http://www.cnblogs.com/shihuc/p/6593041.html
+安装：http://www.cnblogs.com/shihuc/p/6593041.html
 http://www.linuxidc.com/Linux/2017-03/142297.htm  （ubuntu下安装看这个比较好）
 numpy 单独更新下。
 sudo pip install numpy --upgrade
