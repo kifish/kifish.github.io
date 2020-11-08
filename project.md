@@ -7,20 +7,26 @@ description: "project"
 
 #### 实习经历
 
+
+#### 基于知识增强的生成式chatbot
+2020.09-2020.11                         字节跳动-AI Lab  
+研究对话生成, 利用知识增强来提升GPT2在对话生成的任务上的效果。(Work in progress)         
+
+
 #### 基于知识选择的检索式chatbot
 2020.02-present         
-在严睿老师组里实习。      
 研究多轮检索式对话, 在Persona-Chat、CMUDoG和Wizard数据集上取得sota结果, 发表于CIKM2020:         
-Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems    
+[Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems](https://dl.acm.org/doi/abs/10.1145/3340531.3411967)
+
 CIKM2020 Full Paper Research Track 一作
 
 <!-- (CIKM2020 Full Paper Research Track 共一一作)
 
-https://www.cikm2020.org/accepted-papers/accepted-research-papers/
+-->
 
-  -->
- 
-[**[paper](https://github.com/kifish/knowbot)**]  [**[dataset](https://github.com/kifish/knowbot)**]  [**[code](https://github.com/kifish/knowbot)**]
+<!--  
+[**[paper](https://github.com/kifish/knowbot)**]  [**[dataset](https://github.com/kifish/knowbot)**]  [**[code](https://github.com/kifish/knowbot)**] -->
+
 
 
 ##### FAQ
@@ -82,6 +88,7 @@ https://mp.weixin.qq.com/s?__biz=MzI5MTU5OTM1NQ==&mid=2247485180&idx=1&sn=2ac872
 担任自然语言处理实习生，负责肿瘤病理数据结构化的工作，通过正则及医学规则实现了病理信息抽取，结构化结果由人工评估，准确率高达99%。并做了一些数据分析工作，使用[apriori](https://kifish.github.io/2018/07/24/apriori/)算法挖掘免疫组化抗体之间的[关联性](https://kifish.github.io/2018/07/24/apriori/),并实现了**[可视化](https://kifish.github.io/R-notes/plot_rules/qfs.html)**。 
 
 
+
 #### tiny projects
 
 #### semantic parsing
@@ -90,7 +97,8 @@ natural language -> logical form
 [**[dataset](https://github.com/msra-nlc/MSParS)**]  [**[code](https://github.com/kifish/ml-base/tree/master/pku-deep-learning/wxj-course/%E8%AF%AD%E4%B9%89%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%9F%A5%E8%AF%86%E6%A3%80%E7%B4%A2/project/src)**]
 
 method:  
-bilstm-crf ner + seq2seq     
+bilstm-crf + ner + seq2seq     
+
 TODO: maybe pointer network + seq2seq is better!
 
 #### NER
@@ -105,3 +113,6 @@ TODO: maybe pointer network + seq2seq is better!
 
 update: methods above are out of date.
 
+增加了bert的支持。
+
+6.[Bert](https://github.com/kifish/NER-demo/tree/bert)
