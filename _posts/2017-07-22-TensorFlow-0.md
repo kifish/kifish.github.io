@@ -1,10 +1,5 @@
-
-
-#
 Getting started with Machine Learning in 5 minutes
 https://jizhi.im/blog/post/5min-ml  （可在网页上运行）
-#
-
 
 
 tf1.0

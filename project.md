@@ -14,7 +14,11 @@ description: "project"
 Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems    
 CIKM2020 Full Paper Research Track 一作
 
-<!-- (CIKM2020 Full Paper Research Track 共一一作)  -->
+<!-- (CIKM2020 Full Paper Research Track 共一一作)
+
+https://www.cikm2020.org/accepted-papers/accepted-research-papers/
+
+  -->
  
 [**[paper](https://github.com/kifish/knowbot)**]  [**[dataset](https://github.com/kifish/knowbot)**]  [**[code](https://github.com/kifish/knowbot)**]
 
