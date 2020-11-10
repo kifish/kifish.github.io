@@ -30,7 +30,7 @@ CIKM2020 Full Paper Research Track 一作
 
 
 ##### FAQ
-2020.04-present                        腾讯微信-模式识别中心  
+2020.04-2020.07                        腾讯微信-模式识别中心  
 担任nlp算法实习生，参与 **[微信对话开放平台](https://openai.weixin.qq.com/)** 的**FAQ**项目, 即检索式 chatbot。   
 负责 es 后台接口以及数据更新服务。    
 负责对话反馈分类。   
