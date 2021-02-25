@@ -7,6 +7,9 @@ description: "project"
 
 #### 实习经历
 
+#### 语言模型
+2020.12-present                         MSRA-NLC  
+研究位置编码, 改进语言模型和下游的文本生成任务。(Work in progress)    
 
 #### 基于知识增强的生成式chatbot
 2020.09-2020.11                         字节跳动-AI Lab  
