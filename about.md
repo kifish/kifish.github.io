@@ -5,7 +5,7 @@ description: "kifish"
 header-img: "img/zhihu.jpg"
 ---
 
-github: kifish
+[Google Scholar](https://scholar.google.com/citations?user=bTRtpnIAAAAJ) [Github](https://github.com/kifish) Email: kifish.pro@gmail.com
 
 Experience<br>
 - 2023.04-present LLM Researcher at ByteDance Seed LLM<br>
@@ -18,7 +18,7 @@ Publications
 - **Kai Hua**, Steven Wu, Ge Zhang. AttentionInfluence: Adopting Attention Head Influence for Weak-to-Strong Pretraining Data Selection. arXiv:2505.07293, 2025.05<br>
   - LLM Pretrain-data Selection (Idea Originator && Project Leader)
   - We propose AttentionInfluence, a training-free and supervision-free method for reasoning-centric data selection. By masking attention heads in a small pretrained model and measuring loss differences, we identify reasoning-intensive data that significantly improves the performance of larger models. Applied to a 7B model, our approach yields consistent gains on benchmarks like MMLU, GSM8K, and HumanEval—demonstrating an effective weak-to-strong scaling path for reasoning-focused pretraining.
-  - [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [WeChat Post](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247794271&idx=2&sn=ffbb88d61b072ec720fe6eff381e8fa0) [Community reproduction](https://github.com/alexfdom/attention-influence)
+  - [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [WeChat Post](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community reproduction](https://github.com/alexfdom/attention-influence)
 
 - Seed LLM&VLM Team. [Seed-1.6](https://seed.bytedance.com/en/seed1_6), Technical Blog, 2025.06<br>
   - LLM&VLM Pretrain (Team Collaboration)
@@ -26,10 +26,11 @@ Publications
 - Seed VLM&LLM Team. Seed1.5-VL Technical Report. arXiv:2505.07062, 2025.05.<br>
   - LLM&VLM Pretrain (Team Collaboration)
   - Led the text long-context(128K/512K) CT
+  - [WeChat Post](https://mp.weixin.qq.com/s/GgJVkh8IorB6MvqlxESJLw)
 - Seed LLM Team. Seed-Thinking-v1.5: Advancing Superb Reasoning Models with Reinforcement Learning. arXiv:2504.13914. 2025.04
   - LLM Pretrain (Team Collaboration)
   - Core contributor for pretraining data
-  - [WeChat Post](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247787550&idx=1&sn=206c65d8e6d2bdb9a66642f656f241dd)
+  - [WeChat Post](https://mp.weixin.qq.com/s/wfiPEXHayAmwJwrGTAjD2Q)
 
 2024
 
