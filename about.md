@@ -8,7 +8,9 @@ header-img: "img/zhihu.jpg"
 github: kifish
 
 Publications
+
 2025
+
 **Kai Hua**, Steven Wu, Ge Zhang. AttentionInfluence: Adopting Attention Head Influence for Weak-to-Strong Pretraining Data Selection. arXiv:2505.07293, 2025.05
 LLM Pretrain-data Selection (Idea Originator && Project Leader)
 
@@ -19,7 +21,9 @@ Seed VLM&LLM Team. Seed1.5-VL Technical Report. arXiv:2505.07062. May. 2025.
 Seed LLM Team. Seed-Thinking-v1.5: Advancing Superb Reasoning Models with Reinforcement Learning. arXiv:2504.13914. 2025.04
 
 2024
+
 Chongyang Tao, Tao Shen, Shen Gao, Junshuo Zhang, Zhen Li, **Kai Hua**, Zhengwei Tao, and Shuai Ma. Llms are also effective embedding models: An in-depth overview. arXiv preprint arXiv:2412.12591, 2024.12
 
 2020
+
 **Kai Hua**, Zhiyuan Feng, Chongyang Tao, Rui Yan, Lu Zhang. Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems. In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020), 2020.10
