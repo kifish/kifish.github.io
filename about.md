@@ -23,6 +23,7 @@ Publications
 - Seed LLM&VLM Team. [Seed-1.6](https://seed.bytedance.com/en/seed1_6), Technical Blog, 2025.06<br>
   - LLM&VLM Pretrain (Team Collaboration)
   - Led the multimodal long-context(128K/512K) CT
+  - [WeChat Post](https://mp.weixin.qq.com/s/hgAxLm09l7bs7wOKloQKQg)
 - Seed VLM&LLM Team. Seed1.5-VL Technical Report. arXiv:2505.07062, 2025.05.<br>
   - LLM&VLM Pretrain (Team Collaboration)
   - Led the text long-context(128K/512K) CT
