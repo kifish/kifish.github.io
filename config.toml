@@ -1,0 +1,8 @@
+baseURL = "https://kifish.github.io/"
+languageCode = "en-us"
+title = "kifish's blog"
+theme = "PaperMod"
+
+[params]
+  mainSections = ["posts"]
+  disableKinds = ["taxonomy", "term"]
