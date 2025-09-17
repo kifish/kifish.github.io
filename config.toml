@@ -2,6 +2,7 @@ baseURL = "https://kifish.github.io/"
 languageCode = "en-us"
 title = "kifish's blog"
 theme = "PaperMod"
+google_analytics: "UA-118269324-1"
 
 [params]
   mainSections = [""]
