@@ -1,7 +1,7 @@
 baseURL = "https://kifish.github.io/"
 languageCode = "en-us"
 title = "kifish's blog"
-theme = "github.com/adityatelange/hugo-PaperMod"
+theme = "PaperMod"
 
 [params]
   mainSections = [""]
