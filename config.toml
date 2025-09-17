@@ -4,5 +4,5 @@ title = "kifish's blog"
 theme = "PaperMod"
 
 [params]
-  mainSections = ["posts"]
+  mainSections = [""]
   disableKinds = ["taxonomy", "term"]
