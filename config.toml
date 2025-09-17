@@ -5,5 +5,5 @@ theme = "PaperMod"
 google_analytics = "UA-118269324-1"
 
 [params]
-  mainSections = [""]
+  mainSections = []
   disableKinds = ["taxonomy", "term"]
