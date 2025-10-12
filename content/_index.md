@@ -44,3 +44,4 @@ Publications
 2020
 
 - **Kai Hua**, Zhiyuan Feng, Chongyang Tao, Rui Yan, Lu Zhang. Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems. In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020), 2020.10
+
