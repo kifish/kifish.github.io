@@ -22,7 +22,7 @@ Publications
 
 - Seed LLM Team. [Seed OSS 36B](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd), Open Source Model, 2025.08<br>
   - LLM Code/Pretrain (Team Collaboration)
-  - Led the text mid-training && long-context(128K/512K) CT
+  - Led the text mid-training and long-context(128K/512K) CT
   - [量子位](https://mp.weixin.qq.com/s/cr8Q7jlHm-7sCcAcrvUcCg)
 - Seed LLM&VLM Team. [Seed-1.6](https://seed.bytedance.com/en/seed1_6), Technical Blog, 2025.06<br>
   - LLM&VLM Pretrain (Team Collaboration)
