@@ -14,11 +14,17 @@ Experience<br>
 Publications
 
 2025
+- Rui-Jie Zhu, Zixuan Wang, **Kai Hua**, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi Wei, Zixin Wen, Fan Yin, He Xing, Lu Li, Jiajun Shi, Kaijing Ma, Shanda Li, Taylor Kergan, Andrew Smith, Xingwei Qu, Mude Hui, Bohong Wu, Qiyang Min, Hongzhi Huang, Xun Zhou, Wei Ye, Jiaheng Liu, Jian Yang, Yunfeng Shi, Chenghua Lin, Enduo Zhao, Tianle Cai, Ge Zhang, Wenhao Huang, Yoshua Bengio, Jason Eshraghian. Scaling Latent Reasoning via Looped Language Models
+. arXiv:2510.25741, 2025.10<br>
+  - Great Team Collaboration
+  - We scale up **Looped Language Models** to 2.6 billion parameters and complete pretraining on 7.7 trillion open-source tokens following a multi-stage data recipe encompassing Pretraining, Continual Training (CT), Long-CT, and Mid-Training. The resulting model is on par with SOTA language models of 2–3× size. **We open source all the model weights and the data recipe**.
+  - I design and curate all pretraining data mixtures utilizing open-source data and provide key insights throughout the pretraining process.
+  - [Project Page](https://ouro-llm.github.io) [arXiv](https://arxiv.org/abs/2510.25741) [Twitter](https://x.com/RidgerZhu/status/1983732551404679632) [Hugging Face](https://huggingface.co/papers/2510.25741)
 
 - **Kai Hua**, Steven Wu, Ge Zhang. AttentionInfluence: Adopting Attention Head Influence for Weak-to-Strong Pretraining Data Selection. arXiv:2505.07293, 2025.05<br>
   - LLM Pretrain-data Selection (Idea Originator && Project Leader)
   - We propose AttentionInfluence, a training-free and supervision-free method for reasoning-centric data selection. By masking attention heads in a small pretrained model and measuring loss differences, we identify reasoning-intensive data that significantly improves the performance of larger models. Applied to a 7B model, our approach yields consistent gains on benchmarks like MMLU, GSM8K, and HumanEval—demonstrating an effective weak-to-strong scaling path for reasoning-focused pretraining.
-  - [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community reproduction](https://github.com/alexfdom/attention-influence)
+  - [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community Reproduction](https://github.com/alexfdom/attention-influence)
 
 - Seed LLM Team. [Seed OSS 36B](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd), Open Source Model, 2025.08<br>
   - LLM Code/Pretrain (Team Collaboration)
