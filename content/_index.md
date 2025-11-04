@@ -19,7 +19,7 @@ Publications
   - Great Team Collaboration
   - We scale up **Looped Language Models** to 2.6 billion parameters and complete pretraining on 7.7 trillion open-source tokens following a multi-stage data recipe encompassing Pretraining, Continual Training (CT), Long-CT, and Mid-Training. The resulting model is on par with SOTA language models of 2–3× size. **We open source all the model weights and the data recipe**.
   - I design and curate all pretraining data mixtures utilizing open-source data and provide key insights throughout the pretraining process.
-  - [Project Page](https://ouro-llm.github.io) [arXiv](https://arxiv.org/abs/2510.25741) [Twitter](https://x.com/RidgerZhu/status/1983732551404679632) [Hugging Face](https://huggingface.co/papers/2510.25741)
+  - [Project Page](https://ouro-llm.github.io) [arXiv](https://arxiv.org/abs/2510.25741) [Twitter](https://x.com/RidgerZhu/status/1983732551404679632) [Hugging Face](https://huggingface.co/papers/2510.25741) [机器之心](https://mp.weixin.qq.com/s/cArf8L2lspzCpeW6Yzc3Fw)
 
 - **Kai Hua**, Steven Wu, Ge Zhang. AttentionInfluence: Adopting Attention Head Influence for Weak-to-Strong Pretraining Data Selection. arXiv:2505.07293, 2025.05<br>
   - LLM Pretrain-data Selection (Idea Originator && Project Leader)
