@@ -7,3 +7,6 @@ google_analytics = "UA-118269324-1"
 [params]
   mainSections = []
   disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+unsafe = true
