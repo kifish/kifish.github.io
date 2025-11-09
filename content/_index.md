@@ -58,5 +58,5 @@ Publications
 
 <!-- 显示单篇文章阅读量 -->
 <span id="busuanzi_container_page_pv">
-  📈 本页阅读量：<span id="busuanzi_value_page_pv"></span>
+  📈 Page Views: <span id="busuanzi_value_page_pv"></span>
 </span>
