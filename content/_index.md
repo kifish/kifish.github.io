@@ -26,6 +26,13 @@ Publications
   - We propose AttentionInfluence, a training-free and supervision-free method for reasoning-centric data selection. By masking attention heads in a small pretrained model and measuring loss differences, we identify reasoning-intensive data that significantly improves the performance of larger models. Applied to a 7B model, our approach yields consistent gains on benchmarks like MMLU, GSM8K, and HumanEval—demonstrating an effective weak-to-strong scaling path for reasoning-focused pretraining.
   - [arXiv](https://arxiv.org/abs/2505.07293) [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community Reproduction](https://github.com/alexfdom/attention-influence)
 
+
+- NL2Repo Evaluation
+  - discussion and cooperation
+  - labeled examples
+  - [case](https://github.com/multimodal-art-projection/NL2RepoBench/blob/main/test_files/pysondb-v2/start.md)
+
+
 - Seed Model&LLM&VLM Team. [Seed-VWN](https://huggingface.co/papers/2511.11238), Technical Report, 2025.11<br>
   - Model&LLM&VLM (Team Collaboration)
   - Provide long-context(128K/512K) CT data and long-context evaluation
