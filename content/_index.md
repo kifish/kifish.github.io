@@ -27,10 +27,11 @@ Publications
   - [arXiv](https://arxiv.org/abs/2505.07293) [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community Reproduction](https://github.com/alexfdom/attention-influence)
 
 
-- NL2Repo Evaluation
+- NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents. arXiv:2512.12730, 2025.12<br>
+  - Great Team Collaboration
   - discussion and cooperation
-  - labeled examples
-  - [case](https://github.com/multimodal-art-projection/NL2RepoBench/blob/main/test_files/pysondb-v2/start.md)
+  - labeled examples [case](https://github.com/multimodal-art-projection/NL2RepoBench/blob/main/test_files/pysondb-v2/start.md)
+  - [arXiv](https://arxiv.org/abs/2512.12730) [Hugging Face](https://huggingface.co/papers/2512.12730) [Twitter](https://x.com/GeZhang86038849/status/2000781002554380298)
 
 
 - Seed Model&LLM&VLM Team. [Seed-VWN](https://huggingface.co/papers/2511.11238), Technical Report, 2025.11<br>
