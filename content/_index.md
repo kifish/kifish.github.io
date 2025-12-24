@@ -34,6 +34,11 @@ Publications
   - [arXiv](https://arxiv.org/abs/2512.12730) [Hugging Face](https://huggingface.co/papers/2512.12730) [Twitter](https://x.com/GeZhang86038849/status/2000781002554380298)
 
 
+- Seed VLM&LLM Team. [Seed-1.8](https://github.com/ByteDance-Seed/Seed-1.8), Technical Report, 2025.12<br>
+  - VLM&LLM (Team Collaboration)
+  - Provide long-context(128K/512K) CT data and long-context evaluation
+  - [github](https://github.com/ByteDance-Seed/Seed-1.8)
+
 - Seed Model&LLM&VLM Team. [Seed-VWN](https://huggingface.co/papers/2511.11238), Technical Report, 2025.11<br>
   - Model&LLM&VLM (Team Collaboration)
   - Provide long-context(128K/512K) CT data and long-context evaluation
