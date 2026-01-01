@@ -14,10 +14,15 @@ Experience<br>
 Publications
 
 2025
-- Rui-Jie Zhu, Zixuan Wang, **Kai Hua**, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi Wei, Zixin Wen, Fan Yin, He Xing, Lu Li, Jiajun Shi, Kaijing Ma, Shanda Li, Taylor Kergan, Andrew Smith, Xingwei Qu, Mude Hui, Bohong Wu, Qiyang Min, Hongzhi Huang, Xun Zhou, Wei Ye, Jiaheng Liu, Jian Yang, Yunfeng Shi, Chenghua Lin, Enduo Zhao, Tianle Cai, Ge Zhang, Wenhao Huang, Yoshua Bengio, Jason Eshraghian. Scaling Latent Reasoning via Looped Language Models
-. arXiv:2510.25741, 2025.10<br>
+- Xingwei Qu, Shaowen Wang, Zihao Huang, **Kai Hua**, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang. Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space. arXiv:2512.24617, 2025.10<br>
   - Great Team Collaboration
-  - We scale up **Looped Language Models** to 2.6 billion parameters and complete pretraining on 7.7 trillion open-source tokens following a multi-stage data recipe encompassing Pretraining, Continual Training (CT), Long-CT, and Mid-Training. The resulting model is on par with SOTA language models of 2–3× size. **We open source all the model weights and the data recipe**.
+  - We propose **Dynamic Large Concept Models (DLCM)**, a hierarchical language modeling framework that learns semantic boundaries from latent representations and shifts computation from tokens to a compressed concept space where reasoning is more efficient.
+  - I design and construct the training data entirely from open-source data.
+  - [arXiv](https://arxiv.org/abs/2512.24617)
+
+- Rui-Jie Zhu, Zixuan Wang, **Kai Hua**, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi Wei, Zixin Wen, Fan Yin, He Xing, Lu Li, Jiajun Shi, Kaijing Ma, Shanda Li, Taylor Kergan, Andrew Smith, Xingwei Qu, Mude Hui, Bohong Wu, Qiyang Min, Hongzhi Huang, Xun Zhou, Wei Ye, Jiaheng Liu, Jian Yang, Yunfeng Shi, Chenghua Lin, Enduo Zhao, Tianle Cai, Ge Zhang, Wenhao Huang, Yoshua Bengio, Jason Eshraghian. Scaling Latent Reasoning via Looped Language Models. arXiv:2510.25741, 2025.10<br>
+  - Great Team Collaboration
+  - We scale up **Looped Language Models (LoopLM)** to 2.6 billion parameters and complete pretraining on 7.7 trillion open-source tokens following a multi-stage data recipe encompassing Pretraining, Continual Training (CT), Long-CT, and Mid-Training. The resulting model is on par with SOTA language models of 2–3× size. **We open source all the model weights and the data recipe**.
   - I design and curate all pretraining data mixtures utilizing open-source data and provide key insights throughout the pretraining process.
   - [Project Page](https://ouro-llm.github.io) [arXiv](https://arxiv.org/abs/2510.25741) [Twitter](https://x.com/RidgerZhu/status/1983732551404679632) [Hugging Face](https://huggingface.co/papers/2510.25741) [机器之心](https://mp.weixin.qq.com/s/cArf8L2lspzCpeW6Yzc3Fw)
 
