@@ -32,7 +32,7 @@ Publications
   - [arXiv](https://arxiv.org/abs/2505.07293) [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community Reproduction](https://github.com/alexfdom/attention-influence) [Submission Log](https://github.com/kifish/attention_influence)
 
 
-- In-Place Test-Time Training. Guhao Feng, Shengjie Luo, **Kai Hua**, Ge Zhang, Wenhao Huang, Di He, Tianle Cai. ICLR 2026
+- In-Place Test-Time Training. Guhao Feng, Shengjie Luo, **Kai Hua**, Ge Zhang, Wenhao Huang, Di He, Tianle Cai. ICLR 2026.
   - Great Team Collaboration
   - [ICLR 2026](https://openreview.net/forum?id=dTWfCLSoyl)
 
@@ -74,12 +74,12 @@ Publications
 2024
 
 - Chongyang Tao, Tao Shen, Shen Gao, Junshuo Zhang, Zhen Li, **Kai Hua**, Zhengwei Tao, and Shuai Ma. Llms are also effective embedding models: An in-depth overview. arXiv preprint arXiv:2412.12591, 2024.12
-- [arXiv](https://arxiv.org/abs/2412.12591) [TOIS-2025]
+- [arXiv](https://arxiv.org/abs/2412.12591) [TOIS 2025]
 
 2020
 
 - **Kai Hua**, Zhiyuan Feng, Chongyang Tao, Rui Yan, Lu Zhang. Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems. In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020), 2020.10
-- [arXiv](https://arxiv.org/abs/2509.22845)
+- [arXiv](https://arxiv.org/abs/2509.22845) [CIKM 2020]
 
 <!-- Busuanzi 页面访问统计 -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
