@@ -46,12 +46,12 @@ Publications
 
 - Seed VLM&LLM Team. [Seed-1.8](https://github.com/ByteDance-Seed/Seed-1.8), Technical Report, 2025.12<br>
   - VLM&LLM (Team Collaboration)
-  - Provide long-context(128K/512K) CT data and long-context evaluation
+  - Construct **all newly added** long-context(128K/512K) CT data and long-context evaluation
   - [github](https://github.com/ByteDance-Seed/Seed-1.8)
 
 - Seed Model&LLM&VLM Team. [Seed-VWN](https://huggingface.co/papers/2511.11238), Technical Report, 2025.11<br>
   - Model&LLM&VLM (Team Collaboration)
-  - Provide long-context(128K/512K) CT data and long-context evaluation
+  - Construct **all newly added** long-context(128K/512K) CT data and long-context evaluation
   - [arXiv](https://arxiv.org/abs/2511.11238)
 
 - Seed LLM Team. [Seed OSS 36B](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd), Open Source Model, 2025.08<br>
