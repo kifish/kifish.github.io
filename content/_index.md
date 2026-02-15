@@ -68,15 +68,15 @@ Publications
 
 - Seed LLM Team. [Seed OSS 36B](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd), Open Source Model, 2025.08<br>
   - LLM Code/Pretrain (Team Collaboration)
-  - [MASK] the text mid-training and long-context(128K/512K) CT
+  - Led the text mid-training and long-context(128K/512K) CT
   - [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd) [量子位](https://mp.weixin.qq.com/s/cr8Q7jlHm-7sCcAcrvUcCg)
 - Seed LLM&VLM Team. [Seed-1.6](https://seed.bytedance.com/en/seed1_6), Technical Blog, 2025.06<br>
   - LLM&VLM Pretrain (Team Collaboration)
-  - [MASK] the multimodal long-context(128K/512K) CT
+  - Led the multimodal long-context(128K/512K) CT
   - [Technical Blog](https://seed.bytedance.com/en/seed1_6) [机器之心](https://mp.weixin.qq.com/s/hgAxLm09l7bs7wOKloQKQg)
 - Seed VLM&LLM Team. Seed1.5-VL Technical Report. arXiv:2505.07062, 2025.05.<br>
   - LLM&VLM Pretrain (Team Collaboration)
-  - [MASK] the text long-context(128K/512K) CT
+  - Led the text long-context(128K/512K) CT
   - [arXiv](https://arxiv.org/abs/2505.07062) [机器之心](https://mp.weixin.qq.com/s/GgJVkh8IorB6MvqlxESJLw)
 - Seed LLM Team. Seed-Thinking-v1.5: Advancing Superb Reasoning Models with Reinforcement Learning. arXiv:2504.13914. 2025.04
   - LLM Pretrain (Team Collaboration)
