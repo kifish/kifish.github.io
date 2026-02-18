@@ -52,7 +52,7 @@ Publications
 
 
 - Seed VLM&LLM Team. [Seed-2.0](https://seed.bytedance.com/zh/seed2), Technical Report, 2026.02<br>
-  - VLM&LLM (Team Collaboration)
+  - VLM&LLM&Model (Team Collaboration)
   - Construct **all newly added** long-context(128K/512K) CT data and long-context evaluation
   - [paper](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
 
@@ -71,7 +71,7 @@ Publications
   - Led the text mid-training and long-context(128K/512K) CT
   - [Hugging Face](https://huggingface.co/collections/ByteDance-Seed/seed-oss-68a609f4201e788db05b5dcd) [量子位](https://mp.weixin.qq.com/s/cr8Q7jlHm-7sCcAcrvUcCg)
 - Seed LLM&VLM Team. [Seed-1.6](https://seed.bytedance.com/en/seed1_6), Technical Blog, 2025.06<br>
-  - LLM&VLM Pretrain (Team Collaboration)
+  - LLM&VLM&Model Pretrain (Team Collaboration)
   - Led the multimodal long-context(128K/512K) CT
   - [Technical Blog](https://seed.bytedance.com/en/seed1_6) [机器之心](https://mp.weixin.qq.com/s/hgAxLm09l7bs7wOKloQKQg)
 - Seed VLM&LLM Team. Seed1.5-VL Technical Report. arXiv:2505.07062, 2025.05.<br>
