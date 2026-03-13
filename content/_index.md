@@ -13,6 +13,13 @@ Experience<br>
 
 Publications
 
+2026
+- [LLM pretrain] Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining. Zhiyuan Zeng, Yichi Zhang, Yong Shan, **Kai Hua**, Siyuan Fang, Zhaiyu Liu, Jiaheng Liu, Haozhe Wang, Yining Zheng, Ming Ding, Ke Shen, Ge Zhang, Wenhao Huang, Xipeng Qiu. arXiv:2603.11103, 2026.03<br>
+  - Great Team Collaboration
+  - We propose Understanding by Reconstruction (UbR), a pretraining paradigm that reconstructs the latent development trajectories behind software repositories, exposing LLMs to the planning, reasoning, debugging, and iterative refinement processes hidden in static code.
+  - I provide advice on data synthesis, design the data schema for continuous pretraining (CT) that organizes reconstructed development trajectories into a scalable training format, and conduct the experiments and empirical analysis.
+  - [arXiv](https://arxiv.org/abs/2512.24617) [Hugging Face](https://huggingface.co/papers/2512.24617)
+
 2025
 - [LLM pretrain] Xingwei Qu, Shaowen Wang, Zihao Huang, **Kai Hua**, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang. Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space. arXiv:2512.24617, 2025.10<br>
   - Great Team Collaboration
