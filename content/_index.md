@@ -18,7 +18,7 @@ Publications
   - Great Team Collaboration
   - We propose Understanding by Reconstruction (UbR), a pretraining paradigm that reconstructs the latent development trajectories behind software repositories, exposing LLMs to the planning, reasoning, debugging, and iterative refinement processes hidden in static code.
   - I provide advice on data synthesis, design the data schema for continuous pretraining (CT) that organizes reconstructed development trajectories into a scalable training format, and conduct the experiments and empirical analysis.
-  - [arXiv](https://arxiv.org/abs/2603.11103) [Hugging Face](https://huggingface.co/papers/2603.11103)
+  - [arXiv](https://arxiv.org/abs/2603.11103) [Twitter](https://x.com/zhiyuan_nlper/status/2033782539358445759) [Hugging Face](https://huggingface.co/papers/2603.11103)
 
 2025
 - [LLM pretrain] Xingwei Qu, Shaowen Wang, Zihao Huang, **Kai Hua**, Fan Yin, Rui-Jie Zhu, Jundong Zhou, Qiyang Min, Zihao Wang, Yizhi Li, Tianyu Zhang, He Xing, Zheng Zhang, Yuxuan Song, Tianyu Zheng, Zhiyuan Zeng, Chenghua Lin, Ge Zhang, Wenhao Huang. Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space. arXiv:2512.24617, 2025.10<br>
