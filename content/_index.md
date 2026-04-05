@@ -8,7 +8,8 @@ header-img: "img/zhihu.jpg"
 [Google Scholar](https://scholar.google.com/citations?user=bTRtpnIAAAAJ) [Github](https://github.com/kifish) Email: kifish.pro@gmail.com
 
 Experience<br>
-- 2023.04-present LLM Researcher at ByteDance Seed LLM<br>
+- 2026.04-present solo at K.ai<br>
+- 2023.04-2026.04 LLM Researcher at ByteDance Seed LLM<br>
 - 2021.07-2023.03 NLP algorithm engineer at Kuaishou MMU
 
 Publications
