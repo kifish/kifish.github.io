@@ -50,6 +50,7 @@ Publications
 - [Model] In-Place Test-Time Training. Guhao Feng, Shengjie Luo, **Kai Hua**, Ge Zhang, Wenhao Huang, Di He, Tianle Cai. ICLR 2026.
   - Great Team Collaboration
   - [ICLR 2026 Oral](https://openreview.net/forum?id=dTWfCLSoyl)
+  - [arXiv](https://arxiv.org/abs/2604.06169) [GitHub](https://github.com/ByteDance-Seed/In-Place-TTT) [Hugging Face](https://huggingface.co/papers/2604.06169) [量子位](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882085&idx=2&sn=8c181403345d630adbc7a1f01756eeb0) [Twitter](https://x.com/tianle_cai/status/2041705054886097155)
 
 
 - [LLM evaluation] NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents. arXiv:2512.12730, 2025.12<br>
