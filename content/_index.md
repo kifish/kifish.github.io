@@ -39,13 +39,16 @@ Publications
   - We propose AttentionInfluence, a training-free and supervision-free method for reasoning-centric data selection. By masking attention heads in a small pretrained model and measuring loss differences, we identify reasoning-intensive data that significantly improves the performance of larger models. Applied to a 7B model, our approach yields consistent gains on benchmarks like MMLU, GSM8K, and HumanEval—demonstrating an effective weak-to-strong scaling path for reasoning-focused pretraining.
   - [arXiv](https://arxiv.org/abs/2505.07293) [Twitter](https://x.com/GeZhang86038849/status/1922182593791066351) [量子位](https://mp.weixin.qq.com/s/FlP_m6WuWrvxrF4fvgyR9A) [Community Reproduction](https://github.com/alexfdom/attention-influence) [Submission Log](https://github.com/kifish/attention_influence)
 
-- [LLM posttrain] Jinrui Liu, Jeff Wu, Xuanguang Pan, Gavin Cheung, Shuai Ma, Chongyang Tao. AIR: Post-training Data Selection for Reasoning via Attention Head Influence. arXiv:2512.13279, 2025.12<br>
+- [LLM posttrain] Jinrui Liu, **Kai Hua**, Xuanguang Pan, Gavin Cheung, Shuai Ma, Chongyang Tao. AIR: Post-training Data Selection for Reasoning via Attention Head Influence. arXiv:2512.13279, 2025.12<br>
   - LLM Posttrain-data Selection (Idea Originator && Project Leader)
   - We propose AIR (Attention Influence for Reasoning), a train-free and unsupervised framework for post-training data selection. AIR measures the influence of attention heads to estimate the reasoning intensity of samples and intermediate steps, enabling more effective data filtering for multi-step reasoning tasks. Our results on Qwen2.5-32B using the s1 dataset demonstrate consistent improvements across diverse reasoning benchmarks while maintaining strong generalization.
+  - [ICML 2026](https://openreview.net/forum?id=jjHZnkDk5l)
+  - [arXiv](https://arxiv.org/abs/2512.13279)
 
-- [LLM posttrain] Xuanguang Pan, Chongyang Tao, Jiayuan Bai, Jianling Gao, Zhengwei Tao, Xiansheng Zhou, Gavin Cheung, Shuai Ma. EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis. arXiv:2601.04875, 2026.01<br>
+- [LLM posttrain] Xuanguang Pan, Chongyang Tao, Jiayuan Bai, Jianling Gao, Zhengwei Tao, **Kai Hua**, Gavin Cheung, Shuai Ma. EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis. arXiv:2601.04875, 2026.01<br>
   - Great Team Collaboration
   - We proposes a structure-aware framework for generating high-quality Text-to-SQL training data. Instead of relying on uncontrolled LLM generation, EvolSQL systematically increases SQL complexity through syntax-tree-based transformation operators, enabling scalable and diverse data synthesis. Experiments show that models trained on EvolSQL data achieve strong performance and generalization with significantly less (1/18) data, highlighting the importance of structure-aware data construction for semantic parsing.
+  - [arXiv](https://arxiv.org/abs/2601.04875)
 
 - [Model] In-Place Test-Time Training. Guhao Feng, Shengjie Luo, **Kai Hua**, Ge Zhang, Wenhao Huang, Di He, Tianle Cai. ICLR 2026.
   - Great Team Collaboration
@@ -57,6 +60,7 @@ Publications
   - Great Team Collaboration
   - discussion and cooperation
   - labeled examples [case](https://github.com/multimodal-art-projection/NL2RepoBench/blob/main/test_files/pysondb-v2/start.md)
+  - [ICML 2026](https://openreview.net/forum?id=wqQam1muOQ)
   - [arXiv](https://arxiv.org/abs/2512.12730) [Hugging Face](https://huggingface.co/papers/2512.12730) [机器之心](https://mp.weixin.qq.com/s/-NyK458UGvs-LRZJ-9Jb8g) [Twitter](https://x.com/GeZhang86038849/status/2000781002554380298)
 
 
