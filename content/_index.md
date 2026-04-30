@@ -26,6 +26,7 @@ Publications
   - Great Team Collaboration
   - We propose **Dynamic Large Concept Models (DLCM)**, a hierarchical language modeling framework that learns semantic boundaries from latent representations and shifts computation from tokens to a compressed concept space where reasoning is more efficient.
   - I design and construct the training data entirely from open-source data.
+  - [ICLR 2026 Workshop LIT](https://openreview.net/forum?id=vN7HfgJMMh)
   - [arXiv](https://arxiv.org/abs/2512.24617) [Hugging Face](https://huggingface.co/papers/2512.24617)
 
 - [LLM pretrain] Rui-Jie Zhu, Zixuan Wang, **Kai Hua**, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi Wei, Zixin Wen, Fan Yin, He Xing, Lu Li, Jiajun Shi, Kaijing Ma, Shanda Li, Taylor Kergan, Andrew Smith, Xingwei Qu, Mude Hui, Bohong Wu, Qiyang Min, Hongzhi Huang, Xun Zhou, Wei Ye, Jiaheng Liu, Jian Yang, Yunfeng Shi, Chenghua Lin, Enduo Zhao, Tianle Cai, Ge Zhang, Wenhao Huang, Yoshua Bengio, Jason Eshraghian. Scaling Latent Reasoning via Looped Language Models. arXiv:2510.25741, 2025.10<br>
