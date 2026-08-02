@@ -68,12 +68,12 @@ Publications
 - Seed VLM&LLM Team. [Seed-2.0](https://seed.bytedance.com/zh/seed2), Technical Report, 2026.02<br>
   - VLM&LLM&Model (Team Collaboration)
   - Construct **all newly added** long-context(128K/512K) CT data and long-context evaluation
-  - [paper](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
+  - [arXiv](https://arxiv.org/abs/2607.00248) [github](https://github.com/ByteDance-Seed/Seed-2.0)
 
 - Seed VLM&LLM Team. [Seed-1.8](https://github.com/ByteDance-Seed/Seed-1.8), Technical Report, 2025.12<br>
   - VLM&LLM (Team Collaboration)
   - Construct **all newly added** long-context(128K/512K) CT data and long-context evaluation
-  - [github](https://github.com/ByteDance-Seed/Seed-1.8)
+  - [arXiv](https://arxiv.org/abs/2603.20633) [github](https://github.com/ByteDance-Seed/Seed-1.8)
 
 - Seed Model&LLM&VLM Team. [Seed-VWN](https://huggingface.co/papers/2511.11238), Technical Report, 2025.11<br>
   - Model&LLM&VLM (Team Collaboration)
