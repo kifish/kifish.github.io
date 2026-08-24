@@ -49,6 +49,7 @@ Publications
 - [LLM posttrain] Xuanguang Pan, Chongyang Tao, Jiayuan Bai, Jianling Gao, Zhengwei Tao, **Kai Hua**, Gavin Cheung, Shuai Ma. EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis. arXiv:2601.04875, 2026.01<br>
   - Great Team Collaboration
   - We proposes a structure-aware framework for generating high-quality Text-to-SQL training data. Instead of relying on uncontrolled LLM generation, EvolSQL systematically increases SQL complexity through syntax-tree-based transformation operators, enabling scalable and diverse data synthesis. Experiments show that models trained on EvolSQL data achieve strong performance and generalization with significantly less (1/18) data, highlighting the importance of structure-aware data construction for semantic parsing.
+  - [EMNLP findings 2026](https://openreview.net/forum?id=BhVvHhpCsP)
   - [arXiv](https://arxiv.org/abs/2601.04875)
 
 - [Model] In-Place Test-Time Training. Guhao Feng, Shengjie Luo, **Kai Hua**, Ge Zhang, Wenhao Huang, Di He, Tianle Cai. ICLR 2026.
